@@ -10,13 +10,13 @@ The portfolio website from scratch was a good opportunity to test out some of th
 
 [Deployed Website](https://ashleyaggie.github.io/PortfolioWebsite/)
 
-![Top picture of website](./assets/images/websiteTop.png)
+![Top picture of website](/Assets/Images/websiteTop.png)
 
-![Middle picture of website](./assets/images/websiteMid.png)
+![Middle picture of website](/Assets/Images/websiteMid.png))
 
-![Second middle picture of website](./assets/images/websiteMid2.png)
+![Second middle picture of website](/Assets/Images/websiteMid2.png))
 
-![Bottom picture of website](./assets/images/websiteBottom.png)
+![Bottom picture of website](/Assets/Images/websiteBottom.png))
 
 ## Changes Made
 
@@ -26,38 +26,39 @@ WHEN I load their portfolio
 
 THEN I am presented with the developer's name, a recent photo, and links to sections about them, their work, and how to contact them
 
-    *Included full name in Header and in "home" section of body. Photo is also in "home" section. Links to about me, previous work, and contact details, are in the header.
+    * Included full name in Header and in "home" section of body. Photo is also in "home" section.
+    
+    * Links to about me, previous work, and contact details, are in the header.
 
 WHEN I click one of the links in the navigation
 
 THEN the UI scrolls to the corresponding section
 
-    *Achieved with the use of id's.
+    * Achieved with the use of id's.
 
 WHEN I click on the link to the section about their work
 
 THEN the UI scrolls to a section with titled images of the developer's applications
 
-    *Work links to section with id Work.
+    * Work links to section with id Work.
 
 WHEN I am presented with the developer's first application
 
 THEN that application's image should be larger in size than the others
 
-    *Achieved using block display and using classes to specify widths of each section (in this case, spans)
+    * Achieved using block display and using classes to specify widths of each section (in this case, spans)
 
 WHEN I click on the images of the applications
 
 THEN I am taken to that deployed application
 
-    *Each image has an a tag attached with a link, including the placeholders with a google link as a placeholder.
+    * Each image has a link tag attached, including the placeholders with a google link as a placeholder.
 
 WHEN I resize the page or view the site on various screens and devices
 
 THEN I am presented with a responsive layout that adapts to my viewport
 
-    *Used media queries to edit formatting to change at two breakpoints for best use of the layout and screen size.
-
+    * Used media queries to change formatting at two breakpoints for best use of the layout and screen size.
 
 ## Credits
 
