@@ -7,6 +7,12 @@
     --background: #ced7e0;
 }
 
+body {
+    background-color: var(--background);
+    position: relative;
+    color: var(--bright);
+}
+
 /* Header */
 
 .header {
@@ -51,36 +57,10 @@
 
 /* Body Content */
 
-body {
-    background-color: var(--background);
-    position: relative;
-    color: var(--bright);
-}
+/* Home */
 
 article {
     color: black;
-}
-
-.container {
-    padding-top: auto;
-    padding-bottom: auto;
-    font-size: 25px;
-    padding: 15px;
-}
-
-main section {
-    background-color: var(--sectionBg);
-    max-width: 1600px;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding: 50px;
-    margin-bottom: 100px;
-    display: grid;
-    grid-template: auto / 25% 75%;
-}
-
-article .home {
-    overflow: auto;
 }
 
 .home img {
@@ -104,6 +84,21 @@ article .home {
     max-width: 55%;
 }
 
+/* End Home section */
+
+/* Main content */
+
+main section {
+    background-color: var(--sectionBg);
+    max-width: 1600px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 50px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template: auto / 25% 75%;
+}
+
 main section h1 {
     border-right: solid;
     font-size: 40px;
@@ -124,6 +119,19 @@ section img {
     width: 100%;
     height: auto;
 }
+
+/* About Me section */
+
+.container {
+    padding-top: auto;
+    padding-bottom: auto;
+    font-size: 25px;
+    padding: 15px;
+}
+
+/* End About Me */
+
+/* Work section */
 
 .relative {
     position: relative;
@@ -147,21 +155,6 @@ section img {
     box-shadow: 0px 0px 8px var(--skyblue), 0 0 15px var(--darkColor);
 }
 
-.contactContainer {
-    padding: 10px;
-}
-
-.contactContainer p {
-    font-size: 25px;
-    padding-bottom: 30px;
-}
-
-.contactContainer li {
-    padding: 10px;
-    font-size: 20px;
-    font-weight: bold;
-}
-
 .grid {
     display: block;
     position: relative;
@@ -179,6 +172,27 @@ section img {
     width: 50%;
 }
 
+/* End Work section */
+
+/* Contact section */
+
+.contactContainer {
+    padding: 10px;
+}
+
+.contactContainer p {
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.contactContainer li {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* End Contact section */
+
 /* Footer */
 
 footer {
@@ -187,7 +201,13 @@ footer {
     color: black;
 }
 
-@media screen and (max-width: 992px) {
+/* End footer */
+
+/* Media queries */
+
+/* Tablet breakpoint */
+
+@media screen and (max-width: 768px) {
     .home {
         margin: 50px;
     }
@@ -206,20 +226,22 @@ footer {
     }
 }
 
-@media screen and (max-width: 768px) {
+/* Mobile breakpoint */
+
+@media screen and (max-width: 400px) {
 
     .header {
         position: relative;
         overflow: auto;
     }
+    
+    .header nav {
+        margin-right: 0;
+    }
 
     .header ul li {
         display: block;
         margin-left: 0;
-    }
-
-    .header nav {
-        margin-right: 0;
     }
 
     .home {
@@ -235,16 +257,32 @@ footer {
         padding-top: 20px;
     }
 
-    main section h1 {
-        font-size: 100%;
-    }
-
     main section {
         padding: 10px;
     }
 
+    main section h1 {
+        font-size: 100%;
+    }
+  
     .aboutMe p {
         font-size: 15px;
+    }
+    
+    .grid p {
+        font-size: 10px;
+    }
+
+    .item2 {
+        width: 100%;
+    }
+    
+    .item3 {
+        width: 100%;
+    }
+
+    .relative {
+        opacity: 1;
     }
 
     .contactContainer p {
@@ -255,19 +293,6 @@ footer {
         font-size: 15px;
     }
 
-    .relative {
-        opacity: 1;
-    }
-    
-    .item2 {
-        width: 100%;
-    }
-    
-    .item3 {
-        width: 100%;
-    }
-
-    .grid p {
-        font-size: 10px;
-    }
 }
+
+/* End content */
