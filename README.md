@@ -12,11 +12,11 @@ The portfolio website from scratch was a good opportunity to test out some of th
 
 ![Top picture of website](/Assets/Images/websiteTop.png)
 
-![Middle picture of website](/Assets/Images/websiteMid.png))
+![Middle picture of website](/Assets/Images/websiteMid.png)
 
-![Second middle picture of website](/Assets/Images/websiteMid2.png))
+![Second middle picture of website](/Assets/Images/websiteMid2.png)
 
-![Bottom picture of website](/Assets/Images/websiteBottom.png))
+![Bottom picture of website](/Assets/Images/websiteBottom.png)
 
 ## Changes Made
 
